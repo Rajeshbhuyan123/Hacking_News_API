@@ -1,0 +1,27 @@
+.nav {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(222, 153, 50);
+    border: 2px solid black;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.element {
+    background-color: cornsilk;
+    border: 2px solid black;
+    margin: 5px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

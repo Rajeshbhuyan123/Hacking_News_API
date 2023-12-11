@@ -1,0 +1,31 @@
+.single-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.singlemain {
+    height: 600px;
+    width: 300px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+  }
+  
+  .title {
+    background-color: lightgreen;
+  }
+  
+  .comments {
+    margin-top: 10px;
+    max-height: 200px; 
+    overflow-y: auto; 
+  }
+  
+  .comment {
+    background-color: smoky;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
